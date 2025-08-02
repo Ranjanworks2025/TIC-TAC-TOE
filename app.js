@@ -65,6 +65,27 @@ const showWinner = (winner) => {
   disableBoxes();
 }
 
+const showDraw = (winner) => {
+  msg.innerText = `Congratulation, Winner is "${winner}" `;
+  msgContainer.classList.remove("hide");
+  disableBoxes();
+}
+
+const Draw = () => {
+   for ( let pattern of winpatterns){
+
+     let pos1val = boxes[pattern[0]].innerText;
+    let pos2val = boxes[pattern[1]].innerText;
+    let pos3val = boxes[pattern[2]].innerText;
+  
+     if(pos1val != "" && pos2val !="" && pos3val != ""){
+        if(pos1val !== pos2val && pos2val !== pos3val){
+            showDraw(pos1val);
+        }
+    }
+}
+}
+
 const checkwinner = () => {
     for ( let pattern of winpatterns){
 
