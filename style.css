@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+h1{
+    font-size: 20px;
+}
 body{
     background-color: #548687;
     text-align: center;
@@ -45,6 +47,13 @@ color:#cf241e
     color:#ffffff;
     font-size:17px;
     padding-bottom: 20px;
+    
+}
+#msg2{
+    color:#ffffff;
+    font-size:35px;
+    
+    padding-bottom: 0px;
     
 }
 
