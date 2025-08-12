@@ -2,9 +2,7 @@
     margin: 0;
     padding: 0;
 }
-h1{
-    font-size: 20px;
-}
+
 body{
     background-color: #548687;
     text-align: center;
@@ -45,20 +43,14 @@ color:#cf241e
 }
 #msg{
     color:#ffffff;
-    font-size:17px;
+    font-size:25px;
     padding-bottom: 20px;
     
 }
-#msg2{
-    color:#ffffff;
-    font-size:35px;
-    
-    padding-bottom: 0px;
-    
-}
+
 
 #new-btn{
-    padding: 1rem;
+  padding:20px;
     font-size:1.25rem;
     background-color: #e49607;
     color:#fff;
