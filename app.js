@@ -52,6 +52,7 @@ boxes.forEach((box)=>{
         count*=0;
        }
       
+      
        
         
     });
@@ -84,6 +85,7 @@ const showWinner = (winner) => {
   msg.innerText = `Congratulation, Winner is "${winner}" `;
   msgContainer.classList.remove("hide");
   disableBoxes();
+  count*=0;
 }
 
 const showDraw = () => {
